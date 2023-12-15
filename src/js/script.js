@@ -16,17 +16,17 @@ operand3 = Number(operand3);
 operand4 = Number(operand4);
 
 //складання
-let sumResult=operand3 + operand4;
+const sumResult=operand3 + operand4;
 console.log('sum = '+sumResult);
 
 //віднімання
-let differenceResult=operand3 - operand4;
+const differenceResult=operand3 - operand4;
 console.log('difference = '+differenceResult);
 
 //множення
-let productResult=operand3 * operand4;
+const productResult=operand3 * operand4;
 console.log('product = '+productResult);
 
 //ділення
-let quotientResult=operand3 / operand4;
+const quotientResult=operand3 / operand4;
 console.log('quotient = '+quotientResult);
