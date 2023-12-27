@@ -52,11 +52,9 @@ const person2={
     grade: 8
 }
 
-let symbolPerson1 = Symbol('id');
-let symbolPerson2 = Symbol('id');
-
-console.log(person1, person2);
-console.log(person1 === person2);
+const jsonString1 = JSON.stringify(person1);
+const jsonString2 = JSON.stringify(person2);
+console.log(jsonString1 === jsonString2);
 
 
 /*task #5*/
